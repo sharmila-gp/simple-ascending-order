@@ -1,0 +1,171 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+	var a=1;
+	var b=2;
+	var c=5;
+	var d=4;
+	var temp;
+	var i;
+	console.log("a:"+a+"   b:"+b+"  c:"+c +"   d:"+d);
+	
+	
+	/* swap program   */
+/*	for(i=0;i<3;i++){
+	if(a>b){
+		temp=b;
+		b=a;
+		a=temp;
+		
+	}else if(b>c)
+	{
+		temp=c;
+		c=b;
+		b=temp;
+	}else if(a>c){
+		temp=c;
+		c=a;
+		a=temp;
+	}
+	}
+	console.log("a:"+a+"   b:"+b+"  c:"+c);*/
+	
+		/* ascending for 3 numbers */
+	/*b=8; c=6; a=2
+	if(a>b && a>c && b>c){
+		if(b>c){
+			console.log("a:"+c+"   b:"+b+"  c:"+a);
+		}
+		else{
+			console.log("a:"+b+"   b:"+c+"  c:"+a);
+		}
+	}
+	
+	else if((b>a)&&(b>c)){
+		if(a>c){
+			console.log("a:"+c+"   b:"+a+"  c:"+b);
+		}
+		else{
+		console.log("a:"+a+"   b:"+c+"  c:"+b);
+		}
+	}
+	
+	else if((c>a)&&(c>b)){
+		if(a>b){
+			console.log("a:"+b+"   b:"+a+"  c:"+c);
+		}
+		else{
+			console.log("a:"+a+"   b:"+b+"  c:"+c);
+		}
+	
+	}
+	
+	*/
+	/* ascending for 4 numbers */
+	
+	if(a>b && a>c && a>d){
+		if(b>c && b>d){
+			if(c>d){
+			console.log("a:"+d+"   b:"+c+"  c:"+b+"   d:"+a);
+			}
+			else{
+			console.log("a:"+c+"   b:"+d+"  c:"+b+"   d:"+a);
+			}
+		}else if( c>b && c>d){
+			if(b>d){
+			console.log("a:"+d+"   b:"+b+"  c:"+c+"   d:"+a);
+			}
+			else{
+			console.log("a:"+b+"   b:"+d+"  c:"+c+"   d:"+a);
+			}
+		}else if( d>b && d>c){
+			if(b>c){
+			console.log("a:"+c+"   b:"+b+"  c:"+d+"   d:"+a);
+			}
+			else{
+			console.log("a:"+b+"   b:"+c+"  c:"+d+"   d:"+a);
+			}
+		}
+		
+	}
+	
+	else if( b>a && b>c && b>d){
+		if(a>c && a>d){
+			if(c>d){
+				console.log("a:"+d+"   b:"+c+"  c:"+a+"   d:"+b);
+			}
+		else{
+				console.log("a:"+d+"   b:"+c+"  c:"+a+"   d:"+b);
+			}
+		}else if(c>a && c>d){
+			if(a>d){
+				console.log("a:"+d+"   b:"+a+"  c:"+c+"   d:"+b);
+			}
+		else{
+				console.log("a:"+a+"   b:"+d+"  c:"+c+"   d:"+b);
+			}
+		}else if(d>a && d>c){
+			if(a>c){
+				console.log("a:"+c+"   b:"+a+"  c:"+d+"   d:"+b);
+			}
+		else{
+				console.log("a:"+a+"   b:"+c+"  c:"+d+"   d:"+b);
+			}
+		}
+	}
+	
+	else if( c>a && c>b && c>d){
+		if(a>b && a>d){
+			if(b>d){
+				console.log("a:"+d+"   b:"+b+"  c:"+a+"   d:"+c);
+			}
+		else{
+				console.log("a:"+b+"   b:"+d+"  c:"+a+"   d:"+c);
+			}
+		}else if(b>a && b>d){
+			if(a>d){
+				console.log("a:"+d+"   b:"+a+"  c:"+b+"   d:"+c);
+			}
+		else{
+				console.log("a:"+a+"   b:"+d+"  c:"+b+"   d:"+c);
+			}
+		}else if(d>a && d>b){
+			if(a>b){
+				console.log("a:"+b+"   b:"+a+"  c:"+d+"   d:"+c);
+			}
+		else{
+				console.log("a:"+a+"   b:"+b+"  c:"+d+"   d:"+c);
+			}
+		}
+	}
+	else if( d>a && d>b && d>c){
+		if(a>b && a>c){
+			if(b>c){
+				console.log("a:"+c+"   b:"+b+"  c:"+a+"   d:"+d);
+			}
+		else{
+				console.log("a:"+b+"   b:"+c+"  c:"+a+"   d:"+d);
+			}
+		}else if(b>a && b>c){
+			if(a>c){
+				console.log("a:"+c+"   b:"+a+"  c:"+b+"   d:"+d);
+			}
+		else{
+				console.log("a:"+a+"   b:"+c+"  c:"+b+"   d:"+d);
+			}
+		}else if(c>a && c>b){
+			if(a>b){
+				console.log("a:"+b+"   b:"+a+"  c:"+c+"   d:"+d);
+			}
+		else{
+				console.log("a:"+a+"   b:"+b+"  c:"+c+"   d:"+d);
+			}
+		}
+	}
+	
+	
+</script>
+</body>
+</html>
